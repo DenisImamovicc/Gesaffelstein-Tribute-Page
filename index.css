@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+titel{
+    position: ;
+    display: ;
+    
+}
+
+#main{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+#img-div{
+    align-items: center;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-titel{
+    text-align: center;
+}
+#tribute-info{
+    display: flex;
+}
+
+@media screen(max-width:300px) {
+    *{
+        background-color:red;
+    }
+}

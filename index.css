@@ -1,47 +1,58 @@
-*{
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: white;
-}
-
-body{
     background-color: black;
 }
-titel{
-    position: ;
-    display: ;
-    
+
+#title, #tribute-titel {
+    font-weight: 100;
 }
 
-#main{
+#main {
     display: flex;
     align-content: center;
     flex-direction: column;
 }
 
-section{
-    margin-bottom: 100px;
-}
-
-#img-div{
+#img-div {
     align-items: center;
 }
 
-#image{
+#image {
     max-width: 100%;
     height: auto;
 }
 
-#tribute-titel{
+#tribute-titel {
     text-align: center;
-}
-#tribute-info{
-    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-@media screen(max-width:300px) {
-    *{
-        background-color:red;
-    }
+#tribute-info {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.tribute-article {
+    margin: 20px 20px 20px 20px;
 }
